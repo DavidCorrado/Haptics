@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/wheelTickButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Existing Wheel Click" />
+
+    <Button
+        android:id="@+id/tickLegacyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tick Legacy" />
+
+    <Button
+        android:id="@+id/tickCompatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tick Compat" />
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
+    <Button
+        android:id="@+id/confirmCompatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Compat" />
+</LinearLayout>
